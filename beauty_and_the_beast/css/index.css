@@ -1,0 +1,215 @@
+
+html{
+ margin:0;
+ pading:0;
+}
+body{
+margin: 0;
+padding: 0;
+ background:/*カラー*/gray/*image*/ url("../image/siro.jpg")/*繰り返し:しない*/no-repeat/*固定*/fixed/*位置:背景画像の位置は画面中央*/50% 50%;
+ background-size:cover;
+  }
+
+#setumei{
+ float: right;
+ background-color: rgba(0,0,0,0.8);
+ margin-top: -120px;
+ margin-bottom: 100px;
+ margin-left: auto;
+ margin-right: 150px;
+ padding-bottom: 50px;
+ width: 300px;
+ height: auto;
+ 
+}
+#setumei1{
+ float: right;
+ background-color: rgba(0,0,0,0.8);
+ margin-top: -120px;
+ margin-bottom: 100px;
+ margin-left: auto;
+ margin-right: 150px;
+ padding-bottom: 50px;
+ width: 300px;
+ height: auto;
+}
+
+#img-logo{
+ border-bottom: /*幅*/1px/*種類*/ridge/*色*/#8f8f8f;
+ margin-top: 20px;
+ margin-left: 75px;
+ padding-bottom: 30px;
+ width: 150px;
+ height: 70px;
+}
+
+/*list - link*/
+.list{
+ margin-top: 20px;
+ float: left;
+  width: 900px;
+  height: 100px;
+}
+
+.list ul{
+   border-bottom: /*幅*/1px/*種類*/ridge/*色*/#292929;
+   max-width: 800px;
+   margin-top: 27px;
+   margin-left: 50px;
+   padding-bottom: 40px;
+   display: -webkit-flex;
+   display: flex;
+   list-style-type: none;
+   padding-left:0;
+}
+
+.list li{
+  font-family: courier;
+  font-size: 30px;
+  list-style: none;/*黒点をなくす*/
+  margin: 0 auto;
+  display: flex;
+  color: #c079ff;
+}
+
+/*setumei1 - link*/
+#setumei1 li{
+  font-family: courier;
+  font-size: 20px;
+  list-style: none;/*黒点をなくす*/
+  color: #c079ff;
+}
+
+/*list setumei modoru - a*/
+a{
+ text-decoration: none;
+}
+
+a:visited{
+ color: #c079ff;
+}
+a:hover{
+ color: #292929;
+ text-decoration: underline;
+}
+a:active{
+  color: #292929;
+ text-decoration: underline;
+}
+a:focus{
+   color: #292929;
+
+}
+
+/*mein-in - 主体*/
+
+.main-in{
+ float:right;
+ background-color: black;
+ margin-top: 50px; 
+ margin-bottom: 100px;
+ margin-left: 115px;
+ margin-right: 115px;
+ padding-bottom: 50px;
+ width: 650px;
+ height: auto;
+ color: white;
+ 
+}
+
+h3{
+ text-align: center;
+}
+
+h2{
+ text-align: center;
+ font-size: 50px;
+}
+
+h1{
+ font-family: courier;
+ font-size: 20px;
+ margin-top: 100px;
+ margin-bottom: 50px;
+ text-align: center;
+ color: #969696;
+
+}
+
+p{
+ font-family: Yu Gothic ;
+ color: white;
+ margin-left: 20px;
+ margin-right: 20px;
+}
+
+/*story - img1*/
+#story-img1{
+ margin-left: 13.5px ;
+}
+
+/*sory - img2*/
+
+#story-img2{
+ margin-left: 10px;
+}
+
+#staff_main{
+  width: auto;
+  height: 300px;
+  margin-left: 22px ;
+
+}
+table.type01 {
+		margin-top: 50px;
+	    border-collapse: collapse;
+	    text-align: left;
+
+	}
+
+	table.type01 th {
+
+	    width: 200px;
+	    padding: 10px;
+	    font-weight: bold;
+	    vertical-align: top;
+
+	}
+
+	table.type01 td {
+
+	    width: 350px;
+
+	    padding: 10px;
+
+	    vertical-align: top;
+
+
+	}
+.modoru{
+ text-align: center;
+ margin-top: 100px;
+ 
+}
+ p a{
+ color: #c079ff;
+  text-decoration: none;
+}
+ p a:visited{
+ color: #c079ff;
+}
+ p a:hover{
+ color: #292929;
+ text-decoration: underline;
+}
+ p a:active{
+  color: #292929;
+ text-decoration: underline;
+}
+ p a:focus{
+   color: #292929;
+
+}
+
+
+
